@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* nav start */
+#navbarSupportedContent .nav-link{
+font-size: 20px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+border-bottom: 2px solid transparent;
+margin-bottom: 2px;
+margin-right: 3px;
+transform: scale(1.0);
+transition: 0.3s ease-in;
+}
+#navbarSupportedContent .nav-link:hover{
+    color: gold;
+    border-bottom: 2px solid  gold;
+margin-bottom: 1px;
+transition: 0.1s ease-out;
+transform: scale(1.04);
+    }
+    
+#navbarSupportedContent .nav-link.active{
+        color: gold;
+        border-bottom: 2px solid  gold;
+    margin-bottom: 1px;
+        }
+.navbar{
+  box-shadow: 10px 1px 25px black;
+  background-color: white !important;
+}
+nav{
+    position: sticky !important;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+/* nav end */
